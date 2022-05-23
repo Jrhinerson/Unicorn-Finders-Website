@@ -1,0 +1,20 @@
+body {
+    
+}
+.container-fluid {
+    
+    background: linear-gradient(222deg, rgba(90,91,159,1) 37%, rgba(250,201,209,1) 100%);
+}
+.carousel-item {
+    height: 32rem;
+    background: #777;
+    color: white;
+    position: relative;
+}
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
