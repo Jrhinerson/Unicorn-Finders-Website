@@ -1,8 +1,4 @@
 body {
-    
-}
-.container-fluid {
-    
     background: linear-gradient(222deg, rgba(90,91,159,1) 37%, rgba(250,201,209,1) 100%);
 }
 .carousel-item {
