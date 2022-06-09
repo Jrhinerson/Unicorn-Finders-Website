@@ -1,16 +1,26 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
 #title {
     background-image: url("images/Ring\ Option\ 3.png");
-    height: 55rem;
+    height: 90%;
+    width: 100%;
 }
 nav {
     padding: 4%;
     padding-top: 10%;
     font-size: 1.4rem;
 }
+.nav-item {
+    margin: 0.75rem;
+}
 .carousel-item {
     color: white;
     position: relative;
-    height: 48rem;
+    height: 90%;
 }
 .slide-logo {
     display: flex;
@@ -22,7 +32,7 @@ nav {
     height: 23rem;
 }
 .row {
-    margin: 4rem 15%;
+    margin: 10% 12%;
 }
 h1 {
     text-align: center;
@@ -33,9 +43,7 @@ h2 {
 p {
     text-align: center;
 }
-.nav-item {
-    margin: 0.75rem;
-}
+
 .slide-text {
     display: flex;
     flex-direction: column;
@@ -67,6 +75,7 @@ p {
     .unicorn-logo {
         width: 20rem;
     }
+    
     #call-to-action {
         flex-direction: column;
     }
@@ -76,6 +85,11 @@ p {
     }
     .cta-text {
         padding-top: 2rem;
+    }
+}
+@media (max-width: 577px) {
+    #title {
+        height: 45rem;
     }
 }
 .cta-text {
@@ -88,4 +102,22 @@ p {
     width: 15rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+/* Hosts Page */
+
+#hosts-title {
+    background-image: url("images/Ring\ Option\ 3.png");
+    height: 100%;
+}
+article img {
+    border-radius: 50%;
+    width: 100% 
+}
+.hosts-section {
+    margin-top: 3%;
+}
+@media (max-width: 880px) {
+    
 }
