@@ -1,6 +1,6 @@
 #title {
     background-image: url("images/Ring\ Option\ 3.png");
-    height: 44rem;
+    height: 55rem;
 }
 nav {
     padding: 4%;
@@ -10,7 +10,7 @@ nav {
 .carousel-item {
     color: white;
     position: relative;
-    height: 38rem;
+    height: 48rem;
 }
 .slide-logo {
     display: flex;
