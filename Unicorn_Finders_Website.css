@@ -158,13 +158,14 @@ article img {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(242, 235, 231, 0.7);
+    background-color: rgba(242, 235, 231, 0.5);
     border:5px solid white;
     border-radius: 15px;
     padding: 5px;
 }
 .host-cards button {
     margin-bottom: 5%;
+    width: 80%;
 }
 #bg {
     position: fixed;
