@@ -28,9 +28,6 @@ nav {
     align-items: center;
     width: 100%;
 }
-@media (min width:1500px;) {
-    height: 60rem;
-}
 .carousel-item {
     color: white;
     position: relative;
