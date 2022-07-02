@@ -146,7 +146,9 @@ article img {
     border-radius: 50%;
     width: 80%;
     margin-top: 5%;
+    
 }
+
 .hosts-section {
     display: flex;
     justify-content: space-evenly;
@@ -234,16 +236,51 @@ div article .btn {
 }
 .about-img {
     width: 95%;
+    border-radius: 2rem;
+    border:4px solid white;
 }
-main .col-lg-8, main .col-lg-4 {
+main .col-lg-7, main .col-lg-5 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-/* #about-section {
+.guest-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: rgba(242, 235, 231, 0.5);
-    border:5px solid white;
+    border:4px solid white;
     border-radius: 15px;
-    padding: 5%;
-} */
+    padding: 1%;
+    margin:1%;
+    width: 15rem;
+    height:20rem;
+}
+.guest-cards h2 {
+    font-size:1.5rem;
+}
+.guest-cards article {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:80%;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.guest-cards article
+.guest-cards .btn {
+    width: 85%;
+}
+#guest-section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2%;
+}
