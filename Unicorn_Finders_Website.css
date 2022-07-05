@@ -274,8 +274,11 @@ div article .btn {
     margin-top:auto;
     margin-bottom:auto;
 }
-.guest-cards .btn {
+.guest-cards a {
     width: 80%;
+}
+.guest-cards .btn {
+    width: 100%;
 }
 #guest-section {
     display:flex;
