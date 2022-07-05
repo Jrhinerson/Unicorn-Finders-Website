@@ -45,7 +45,10 @@ a {
     height: 23rem;
     transition: transform 250ms, box-shadow 250ms;
 }
-.slide-image:hover {
+.guest-cards img {
+    transition: transform 250ms, box-shadow 250ms;
+}
+.slide-image:hover, .guest-cards img:hover {
     transform: scale(1.02);
     box-shadow: 0px 5px 5px rgb(110, 110, 110);
 }
@@ -285,6 +288,9 @@ div article .btn {
 }
 .guest-cards .btn {
     width: 100%;
+}
+.guest-cards img {
+    width:100%;
 }
 #guest-section {
     display:flex;
