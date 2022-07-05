@@ -36,7 +36,10 @@ nav {
     display: flex;
     justify-content: center;
 }
-
+a {
+    margin-left: auto;
+    margin-right: auto;
+}
 .slide-image {
     border-radius: 40%;
     height: 23rem;
@@ -167,7 +170,10 @@ article img {
 }
 .host-cards button {
     margin-bottom: 5%;
-    width: 80%;
+    width: 100%;
+}
+.host-cards a {
+    width:70%;
 }
 #bg {
     position: fixed;
